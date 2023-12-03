@@ -1,0 +1,55 @@
+@media (min-width: 2560px){
+    .main {
+        min-height: 100%;
+        padding-bottom: 150px;
+    
+        &__container{
+            margin-top: 150px;
+        }
+        
+        &__background{
+            height: 750px;
+            &-car{
+                height: 800px;
+                right:0%;
+                top: 0%;
+                margin-top: 50px;
+            }
+            &__title, &__title-2{
+                font-size: 300px;
+                margin-top: 135px;
+            }
+            &__title-2{
+                margin-top: 410px;  
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px){
+    .main {
+        min-height: 100%;
+        padding-bottom: 100px;
+    
+        &__container{
+            margin-top: 100px;
+        }
+        
+        &__background{
+            height: 450px;
+            &-car{
+                height: 300px;
+                right:0%;
+                bottom: 50%;
+                margin-top: 100px;
+            }
+            &__title, &__title-2{
+                font-size: 150px;
+                margin-top: 80px;
+            }
+            &__title-2{
+                margin-top: 250px;  
+            }
+        }
+    }
+}

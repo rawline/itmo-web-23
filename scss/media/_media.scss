@@ -1,0 +1,17 @@
+@import 'header-media.scss';
+@import 'catalog-media.scss';
+@import 'main-media.scss';
+@import 'footer-media.scss';
+@import 'services-media.scss';
+@import 'contacts-media.scss';
+
+
+@media (min-width: 2560px){
+    *{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px){
+
+}

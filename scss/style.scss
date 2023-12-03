@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext");
+@import 'base/variables.scss';
+* {
+	font-family: $font-family_1;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (min-width: 2560px){
+	.container {
+		max-width: 1600px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px){
+	.container {
+		max-width: 800px;
+	}
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/main.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/services.scss';
+@import 'blocks/heading.scss';
+@import 'blocks/footer.scss';
+@import 'media/media.scss';
+

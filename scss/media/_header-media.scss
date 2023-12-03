@@ -1,0 +1,18 @@
+@media (min-width: 2560px){
+    .header{
+        height: 130px;
+        &__container {
+            height: 100px;
+        }
+
+        &__link-logo{
+            margin-left: 80px;
+            font-size: 38px;
+        }
+
+        &__links{
+            gap: 80px;
+            margin-right: 80px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@media (min-width: 2560px){
+    .contacts{
+        height: 337px;
+        margin-top: 200px;
+        padding-bottom: 250px;
+        &__wrapper{
+            display: flex;
+            width: 75%;
+            margin: 0 auto;
+        }
+        &__item{
+            flex: 50%;
+            text-align: center;
+            display: block;
+        }
+        &__subtitle{
+            font-size: 1.6rem;
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+        &__content{
+            font-size: 1.2rem;
+            a {
+                color: $color_2;
+            }
+        }
+    }
+}
