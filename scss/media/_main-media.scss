@@ -1,27 +1,38 @@
-@media (min-width: 2560px){
+@media (max-width: 768px){
     .main {
-        min-height: 100%;
-        padding-bottom: 150px;
+        min-height: 130vh;
+        padding-bottom: 10vh;
     
         &__container{
-            margin-top: 150px;
+            margin-top: 10vh;
         }
         
         &__background{
-            height: 750px;
+            width: 100vw;
+            height: 100vh;
             &-car{
-                height: 800px;
-                right:0%;
-                top: 0%;
-                margin-top: 50px;
+                display: block;
+                height: 55vh;
+                right:0;
+                top: 15%;
+                margin-top: 30vh;
+                filter: drop-shadow(0 0 10px rgb(0, 0, 0) );
             }
             &__title, &__title-2{
-                font-size: 300px;
-                margin-top: 135px;
+                font-weight: 700;
+                font-size: 17vw;
+                margin-top: 15vh;
+                margin-left: 3vw;
+                position: absolute;
+                color: white;
             }
             &__title-2{
-                margin-top: 410px;  
+                margin-top: 40vw;
             }
+        }
+        &__descr {
+            text-align: center;
+            font-size: 1em;
         }
     }
 }

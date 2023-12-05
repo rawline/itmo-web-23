@@ -7,23 +7,12 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 3vh;
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 70vw;
 	margin: 0 auto;
-}
-
-@media (min-width: 2560px){
-	.container {
-		max-width: 1600px;
-	}
-}
-
-@media (min-width: 1024px) and (max-width: 1439px){
-	.container {
-		max-width: 800px;
-	}
 }
 
 @import 'blocks/header.scss';
