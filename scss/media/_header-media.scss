@@ -1,23 +1,12 @@
-// @media (min-width: 2560px){
-//     .header{
-//         height: 130px;
-//         &__container {
-//             height: 100px;
-//         }
+@media (max-width: 768px){
+    .header{
+        &__link-logo{
+            font-size: 0.7em;
+        }
+    }
+}
 
-//         &__link-logo{
-//             margin-left: 80px;
-//             font-size: 38px;
-//         }
-
-//         &__links{
-//             gap: 80px;
-//             margin-right: 80px;
-//         }
-//     }
-// }
-
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     .header{
         &__links{
             position: fixed;
@@ -42,14 +31,14 @@
             margin-right: 5vw;
             top: 50%;
             transform: translateY(-50%);
-            width: 26px;
+            width: 52px;
             height: 12px;
             span {
                 display: block;
                 height: 2px;
                 width: 100%;
                 background-color: #fff;
-                margin-bottom: 2px;
+                margin-bottom: 10px;
                 transition: 0.5s all;
             }
 

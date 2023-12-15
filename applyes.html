@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__container">
+            <a class="header__link-logo" href="index.html">AVTO IMPORT</a>
+            <ul class="header__links">
+                <li class="header__item"><a class="header__link" href="index.html">Главная</a></li>
+                <li class="header__item"><a class="header__link" href="services.html">Услуги</a></li>
+                <li class="header__item"><a class="header__link" href="catalouge.html">Каталог</a></li>
+                <li class="header__item"><a class="header__link" href="contacts.html">Контакты</a></li>
+                <li class="header__item"><a class="header__link" href="applyes.html">Заявки</a></li>
+            </ul>
+    
+            <div class="header__hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+        </nav>
+    </header>
+
+    <section class="apply">
+        <div class="container">
+
+            <div class="heading">
+                <h2 class="heading__title">Завки на добавление новых машин</h2>
+                <div class="heading__line"></div>
+            </div>
+
+            <form id="form" class="apply__form">
+                <div class="apply__title">Введите характеристики машины:</div>
+                <label class="apply__label">Марка:</label>
+                <input type="text" id="brand" class="apply__input" placeholder="Название марки"><br>
+        
+                <label class="apply__label">Модель:</label>
+                <input type="text" id="model" class="apply__input" placeholder="Модель машины"><br>
+        
+                <label class="apply__label">Год выпуска:</label>
+                <input type="number" id="year" class="apply__input" placeholder="Год выпуска"><br>
+        
+                <button type="submit" id="add" class="apply__button">Добавить машину</button>
+            </form>
+    
+
+            <div class="apply__lists">
+                <div id="car-list" class="apply__car-wrapper">
+                    <h2 class="apply__title">Список вашей заявки:</h2>
+                    <button id="delete" class="apply__button apply__button-del">Очистить список</button>
+                    <div id="empty" class="apply__empty"> Список пуст...</div>
+                </div>
+                <div class="apply__car-wrapper apply__carsAlreadyExist">
+                    <h2 class="apply__title">Другие машины в заявках:</h2>
+                    <div class="apply__preloader" id="preloader">
+                        <img src="bouncing-circles.svg"  alt="" width="50px" height="300px">
+                    </div>
+                    <div id="carInfo"></div>
+                </div>
+                
+            </div>
+            
+
+            <script src="generator.js"></script>
+            <script src="getData.js"></script>
+
+        </div>
+    </section>
+
+
+
+<footer>
+    <p>&copy; Auto Import 2017</p>
+    <div class="footer__load-speed"></div>
+</footer>
+</body>
+</html>
